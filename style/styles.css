@@ -1,0 +1,88 @@
+/* Lappeenrantalaisen tyyli */
+
+body {
+	background-color: #c7e5ff;
+    font-family: Arial, fantasy, sans-serif;
+    color: #333;
+    line-height: 1.6;
+	max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header img {
+	width: 100%;
+	height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+header {
+    background-color: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #c7e5ff;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+		padding: 10px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav a {
+	margin-right: 15px;
+    color: orange;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+.highlight {
+    color: lightblue;
+    font-weight: bold;
+}
